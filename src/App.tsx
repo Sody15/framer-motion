@@ -1,7 +1,9 @@
 import "./App.css";
 
+import Animate from "./components/animation/Animate";
+
 function App() {
-  return <h3 className="text-red-800">Test</h3>;
+  return <Animate />;
 }
 
 export default App;

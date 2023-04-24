@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  font-size: 18px;
+}
+
+.section {
+  @apply border-4 rounded-lg p-7 w-full flex justify-center flex-col items-center;
+}
